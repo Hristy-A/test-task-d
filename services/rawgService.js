@@ -10,8 +10,9 @@ const GAME_NOT_FOUND_ERROR_MESSAGE = 'game not found';
 
 const PLATFORM_ERROR_MESSAGE = 'failed to fetch platforms';
 
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY ?? '';
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? '';
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY ?? 'https://api.rawg.io/api';
+const API_URL =
+  process.env.NEXT_PUBLIC_API_URL ?? '50dbf530e8394380b4b1090d182ff50d';
 const USE_MOCK_API = process.env.NEXT_PUBLIC_USE_MOCK_API;
 
 const isDevelopment = process.env.NODE_ENV === 'development';

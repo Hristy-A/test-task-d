@@ -17,3 +17,5 @@
     npm start
     ```
 4.* If you received an error due to a busy port, type in terminal: `npx kill-port 3000`
+
+(P.S. I added hardcoded options, but you can create a .env.local file and add options from rawgService.js (NEXT_PUBLIC_API_URL and NEXT_PUBLIC_API_KEY))
