@@ -1,0 +1,26 @@
+{
+  "name": "test-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "_start": "next start",
+    "build": "next build",
+    "start": "npm run build && npm run _start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-wesbos": "^3.2.3",
+    "immer": "^9.0.19",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.9",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

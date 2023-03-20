@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "wesbos"],
+  "rules": {
+    "import/no-unresolved": "off",
+    "react/prop-types": "off"
+  }
+}
